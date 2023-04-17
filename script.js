@@ -11,5 +11,6 @@ function calculate() {
     var c = 2*Math.PI*r
     
     document.getElementById("result").innerHTML = "R = " + r.toFixed(3) + "<br>α = " + deg.toFixed(3) + "<br>ℓ = " + l.toFixed(3) + "<br>c = " + c.toFixed(3);
+    
   }
   
