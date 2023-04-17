@@ -8,10 +8,8 @@ function calculate() {
     var rad = Math.acos(cos);
     var deg = rad * 180 / Math.PI;
     var l = (Math.PI*r*deg) / 180
-    // var perimeter = 2 * (a + h);
-    // var area = a * h;
     
     document.getElementById("result").innerHTML = "R = " + r.toFixed(3) + "<br>α = " + deg.toFixed(3) + "<br>ℓ = " + l.toFixed(3);
-    // document.getElementById("result").innerHTML = "R = " + r.toFixed(3) ;
+  
   }
   
