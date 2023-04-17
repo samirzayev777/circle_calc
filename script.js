@@ -8,10 +8,8 @@ function calculate() {
     var rad = Math.acos(cos);
     var deg = rad * 180 / Math.PI;
     var l = (Math.PI*r*deg) / 180
-    
+    var c = 2*Math.PI*r
     
     document.getElementById("result").innerHTML = "R = " + r.toFixed(3) + "<br>α = " + deg.toFixed(3) + "<br>ℓ = " + l.toFixed(3) + "<br>c = " + c.toFixed(3);
-
-}
-
+  }
   
