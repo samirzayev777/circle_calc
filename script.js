@@ -11,7 +11,7 @@ function calculate() {
     // var perimeter = 2 * (a + h);
     // var area = a * h;
     
-    document.getElementById("result").innerHTML = "R: " + r.toFixed(3) + "<br>α: " + deg.toFixed(3) + "<br>ℓ: " + l.toFixed(3);
+    document.getElementById("result").innerHTML = "R = " + r.toFixed(3) + "<br>α = " + deg.toFixed(3) + "<br>ℓ = " + l.toFixed(3);
     // document.getElementById("result").innerHTML = "R = " + r.toFixed(3) ;
   }
   
